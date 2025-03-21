@@ -1,0 +1,23 @@
+# Ignore aclImdb directory
+aclImdb/
+
+# Ignore common Python files and directories
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
