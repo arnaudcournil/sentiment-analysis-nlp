@@ -18,3 +18,19 @@ Reproduire le modèle hybride de Maas et al. combinant :
 
 2. **Premiers essais**
    - Entraînement séparé des composantes : non supervisé seul, puis supervision sur les vecteurs appris
+   - Résultats insatisfaisants : log-vraisemblance instable, vecteurs peu discriminants
+
+3. **Optimisation par algorithme génétique**
+   - Recherche des meilleurs hyperparamètres : `λ`, `ν`, et dimension des vecteurs
+   - Amélioration significative de la convergence et de l’accuracy
+
+4. **Apprentissage conjoint**
+   - Optimisation simultanée des deux composantes (non supervisée + supervisée)
+   - Ajout d’une représentation **Bag-of-Words (BoW)** concaténée aux vecteurs
+   - Meilleure performance obtenue
+
+## ✅ Résultats
+
+- Accuracy finale atteinte : **88.3%**
+- Le modèle joint + BoW surpasse toutes les variantes précédentes
+- Le classifieur `LinearSVC` donne des performances similaires, mais légèrement inférieures à la régression logistique
