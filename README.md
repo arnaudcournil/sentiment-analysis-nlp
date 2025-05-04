@@ -8,6 +8,8 @@ Reproduire le modèle hybride de Maas et al. combinant :
 - **Apprentissage non supervisé** : un modèle log-linéaire probabiliste apprenant des représentations de mots à partir de documents.
 - **Apprentissage supervisé** : une régression logistique apprenant à prédire la polarité d’un document à partir des vecteurs de mots.
 
+Contributeurs : **Arnaud COURNIL & Joakim FELLBOM**
+
 ## 📑 Approche suivie
 
 1. **Prétraitement du corpus IMDB**
