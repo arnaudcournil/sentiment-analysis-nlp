@@ -33,6 +33,6 @@ Reproduire le modèle hybride de Maas et al. combinant :
 
 ## ✅ Résultats
 
-- Accuracy finale atteinte : **88.3%**
+- Accuracy finale atteinte : **83.78%**
 - Le modèle joint + BoW surpasse toutes les variantes précédentes
 - Le classifieur `LinearSVC` donne des performances similaires, mais légèrement inférieures à la régression logistique
